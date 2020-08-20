@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'i%^83ka_+!$3$_q-ght(n1d&$24nxow&h0-^zqhu)&0+=vxtn$'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -142,12 +142,12 @@ AUTHENTICATION_BACKENDS = [
 
 ]
 
-SOCIAL_AUTH_FACEBOOK_KEY = '1157616941298250' # Facebook App ID
-SOCIAL_AUTH_FACEBOOK_SECRET = 'c21161c5b23f0a15bf78e57fee2280b8' # Facebook App Secret
+SOCIAL_AUTH_FACEBOOK_KEY = '' # Facebook App ID
+SOCIAL_AUTH_FACEBOOK_SECRET = '' # Facebook App Secret
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '755745594560-tdgfimts7k49tcan1n5e0g2i3f65q27m.apps.googleusercontent.com'  # Google Consumer Key
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'EEn8-JbffA3cAsE409KJyLof' # Google Consumer Secret
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = ''  # Google Consumer Key
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '' # Google Consumer Secret
 
 
 from django.urls import reverse_lazy
